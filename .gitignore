@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# osmnx cache
+cache/
+
+# Input data (download separately, see README)
+Wetterdaten/*
+!Wetterdaten/README.md
+Gebäudehöhe/*
+!Gebäudehöhe/README.md
+Baujahr/*
+!Baujahr/README.md
+
+# Program output
+Gebäudedaten_backup.txt
+Gebäudeplot.png
+energieverlauf.png
+*_heizen.csv
+*_kühlen.csv
+*.xlsx
+!NWG/*.xlsx
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

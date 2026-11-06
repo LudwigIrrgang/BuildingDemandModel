@@ -1,0 +1,9 @@
+# tkinter is part of the Python standard library (Linux: install python3-tk)
+osmnx>=1.9
+geopandas>=0.14
+shapely>=2.0
+pandas>=2.0
+numpy>=1.24
+matplotlib>=3.7
+openpyxl>=3.1
+pvlib>=0.10
